@@ -21,8 +21,10 @@
       {% endfor %}
       {% endif %}
 
+      <!--Add button-->
       <div class="d-flex justify-content-between">
         <a href="" data-bs-toggle="modal" data-bs-target="#addStudentModal" class="btn btn-primary px-4 btn-sm">Add New Student</a>
+        <!--Search bar or button-->
         <div>
           <form action="" method='post' class="d-flex">
             {% csrf_token %}
@@ -32,6 +34,7 @@
         </div>
       </div>
       
+      <!--Create table-->
       <table class="table mt-3 table-bordered">
         <thead>
           <tr>
